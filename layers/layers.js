@@ -63,7 +63,7 @@ jsonSource_ProduccindeCaaPaneleraToneladas2017_3.addFeatures(features_Produccind
                 title: '<img src="styles/legend/ProduccindeCaaPaneleraToneladas2017_3.png" /> Producción de Caña Panelera (Toneladas) - 2017'
             });
 
-lyr_LimiteDepartamental_0.setVisible(true);lyr_MunicipiosProductoresdeCaaPaneleradeColombia_1.setVisible(true);lyr_DepartamentosdeColombia_2.setVisible(true);lyr_ProduccindeCaaPaneleraToneladas2017_3.setVisible(false);
+lyr_LimiteDepartamental_0.setVisible(true);lyr_MunicipiosProductoresdeCaaPaneleradeColombia_1.setVisible(true);lyr_DepartamentosdeColombia_2.setVisible(false);lyr_ProduccindeCaaPaneleraToneladas2017_3.setVisible(false);
 var layersList = [baseLayer,lyr_LimiteDepartamental_0,lyr_MunicipiosProductoresdeCaaPaneleradeColombia_1,lyr_DepartamentosdeColombia_2,lyr_ProduccindeCaaPaneleraToneladas2017_3];
 lyr_LimiteDepartamental_0.set('fieldAliases', {'nombre_dep': 'nombre_dep', 'No': 'No', });
 lyr_MunicipiosProductoresdeCaaPaneleradeColombia_1.set('fieldAliases', {'DEPT': 'DEPT', 'MUNICIPIO': 'MUNICIPIO', 'CULTIVO': 'CULTIVO', 'AÑO': 'AÑO', 'A.SEM.(Ha)': 'A.SEM.(Ha)', 'A.COS.(Ha)': 'A.COS.(Ha)', 'PROD.(Ton)': 'PROD.(Ton)', 'Rend.(Ton/': 'Rend.(Ton/', });
